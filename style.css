@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.ul-margin{
+    margin-left: 60%;
+}
+.bg-image {
+    position: relative;
+    background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.7), rgba(231, 216, 216, 0.7)), url("images/car-2.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+}
+.custom-absolute{
+    background-color: rgba(119, 98, 98, 0.7);
+}
+
+.img-card{
+    width: 100%;
+    
+}
+.img-image{
+    height: 100%;
+    width: 100%;
+}
+.img-image img{
+    height: 100%;
+    width: 100%;
+    transition: all 0.25s;
+}
+.img-image img:hover{
+    opacity: 0.8;
+    width: 80%;
+}
