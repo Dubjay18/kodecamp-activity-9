@@ -64,12 +64,12 @@ let gallerysection = document.getElementById('wrapper')
 let html ="";
 image.forEach(e => {
     html += `
-    <div class="img-card border-5 my-5 col-5 border-dark w-25 bg-light text-center mx-2 h-100  d-flex flex-wrap rounded-3 shadow-lg">
+    <div class="img-card border-5 my-5 border-dark w-25 bg-light text-center ml-5 h-100  d-flex flex-wrap rounded-3 shadow-lg">
     <div class="img-image w-auto">
-        <img src="images/${e.image_src}.jpg" alt="Car 1 />
+        <img src="images/${e.image_src}.jpg" alt="Car 1 class="rounded-3" />
     </div>
     <div class="image-info ">
-        <p>Name: ${e.name}<br />
+        <p class="h-25 text-sm text-muted bg-light rounded-3 px-3">Name: ${e.name}<br />
         Price: ${e.Price}</p>
         
     </div>
