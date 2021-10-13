@@ -13,7 +13,7 @@
     align-items: center;
 }
 .img-card{
-    width: 110%;
+    width: 28%;
     
 }
 .img-image{
@@ -31,4 +31,9 @@
 }
 p{
     font-size: 0.7rem;
+}
+@media(max-width:800px){
+    .img-card{
+        width: 70%;
+    }
 }
